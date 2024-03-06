@@ -132,7 +132,7 @@ export function levelupbutton(lvlVars, CombinedVars, UIVars) {
 
 }
 
-export function experiencebuttonup(lvlVars, UIVars) {
+export function experiencebuttonup(lvlVars, CombinedVars, UIVars) {
     document.getElementById("exp").innerHTML = lvlVars.exp += 1;
 
     if (lvlVars.exp == 10) {
