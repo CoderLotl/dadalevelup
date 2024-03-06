@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', ()=>
 
     lvlup_btn.addEventListener('click', ()=>
     {
-        levelupbutton(lvlVars, UIVars);
+        levelupbutton(lvlVars, CombinedVars, UIVars);
     });
         
     addexp_btn.addEventListener('click', ()=>
     {
-        experiencebuttonup(lvlVars, UIVars);
+        experiencebuttonup(lvlVars, CombinedVars, UIVars);
     });
 });
