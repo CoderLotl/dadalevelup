@@ -76,6 +76,6 @@ export function InitCombinedVars(lvlVars, CombinedVars)
     CombinedVars.totalbase = lvlVars.basehp + lvlVars.basestr + lvlVars.basemag + lvlVars.basedex + lvlVars.basespd + lvlVars.baselck + lvlVars.basedef + lvlVars.baseres + lvlVars.basecha;
     CombinedVars.totalvlstats = lvlVars.lvlhp + lvlVars.lvlstr + lvlVars.lvlmag + lvlVars.lvldex + lvlVars.lvlspd + lvlVars.lvllck + lvlVars.lvldef + lvlVars.lvlres + lvlVars.lvlcha;    
     console.log(CombinedVars.totalvlstats);
-    CombinedVars.combinedstats = lvlVars.combinedhp + lvlVars.combinedstr + lvlVars.combinedmag + lvlVars.combineddex + lvlVars.combinedspd + lvlVars.combinedlck + lvlVars.combineddef + lvlVars.combinedres + lvlVars.combinedcha;
+    CombinedVars.combinedstats = CombinedVars.combinedhp + CombinedVars.combinedstr + CombinedVars.combinedmag + CombinedVars.combineddex + CombinedVars.combinedspd + CombinedVars.combinedlck + CombinedVars.combineddef + CombinedVars.combinedres + CombinedVars.combinedcha;
     CombinedVars.totalgrowth = lvlVars.growthhp + lvlVars.growthstr + lvlVars.growthmag + lvlVars.growthdex + lvlVars.growthspd + lvlVars.growthlck + lvlVars.growthdef + lvlVars.growthres + lvlVars.growthcha;
 }
